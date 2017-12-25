@@ -1,2 +1,11 @@
 # Jill
-A telegram bot, written in python.
+A telegram picture bot, written in python.
+
+
+
+## Dependencies
+- Pybooru
+- python-telegram-bot
+
+
+
