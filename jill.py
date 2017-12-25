@@ -42,7 +42,9 @@ def conversation(bot, update):
     ## Make the bot talk, when a non-command message is sent. WIP
 def send_picture(bot, update, args):
     query = str(args[0])
-    posts = client.post_list(tags=query, limit=20)
+    limit = int(args[1])
+
+    posts = client.post_list(tags=query, limit=limit)
     
     for post in posts:
         update.message.reply_text("There you go: https://danbooru.donmai.us{0}".format(post['file_url']))
