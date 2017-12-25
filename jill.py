@@ -31,7 +31,7 @@ I can't do much for now, but here is what I can do at the moment:
 /help, will make me print out the command list(what you are reading right now)
 
 /hello will greet you, because you know, I'm polite.
-/porn your_kink, sends 10 pictures from danbooru. let's say, you wanna see pictures of lolis(hello ludo), just type: /porn lolis
+/porn your_kink,, limit: sends ###(limit) pictures from danbooru. let's say, you wanna see pictures of lolis(hello ludo), just type: /porn lolis yourlimit
 """)
 
 
